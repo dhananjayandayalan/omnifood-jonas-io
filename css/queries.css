@@ -114,6 +114,7 @@
 
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   .main-nav {
@@ -168,7 +169,7 @@
   }
 }
 
-/* Below 704px (Tablets) */
+/* Below 704px (Small Tablets) */
 
 @media (max-width: 44em) {
   .grid--3-cols,
@@ -205,7 +206,7 @@
   }
 }
 
-/* Below 544px (Tablets) */
+/* Below 544px (Mobiles) */
 
 @media (max-width: 34em) {
   .grid {
